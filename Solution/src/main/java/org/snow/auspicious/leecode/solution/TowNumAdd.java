@@ -9,7 +9,6 @@ public class TowNumAdd {
         int[] ints = twoSum(new int[]{2, 7, 3, 4}, 9);
         System.out.println(ints[0]+","+ints[1]);
     }
-
     /**
      * 方法一  进行两次循环 如果代码两次数相加等于 target
      * 那么将两个数据的数输出。

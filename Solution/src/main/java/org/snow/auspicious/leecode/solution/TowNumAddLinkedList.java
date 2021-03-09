@@ -1,5 +1,8 @@
 package org.snow.auspicious.leecode.solution;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class TowNumAddLinkedList {
     public static void main(String[] args) {
         ListNode l1 = new ListNode(3,new ListNode(4,new ListNode(8)));
@@ -32,6 +35,8 @@ public class TowNumAddLinkedList {
 
     public ListNode addTwoNumbers2(ListNode l1, ListNode l2) {
         ListNode listNode = new ListNode(0);
+        Map map = new HashMap<String,String>();
+        map.put("a","a");
         ListNode curr = listNode;
         int s = 0;
         while (l1 != null || l2 != null) {
